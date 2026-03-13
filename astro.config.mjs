@@ -7,6 +7,7 @@ import vercel from "@astrojs/vercel";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://alonsog88.github.io", // 👈 add this
   integrations: [tailwind(), icon(), compress()],
   output: "server",
   adapter: vercel()
